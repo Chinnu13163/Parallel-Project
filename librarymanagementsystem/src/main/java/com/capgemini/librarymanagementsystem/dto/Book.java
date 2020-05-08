@@ -11,7 +11,6 @@ public class Book implements Serializable{
 	private String category;
 	
 	public Book() {
-		// TODO Auto-generated constructor stub
 	}
 	
 	public Book(int id,String bookName,String author,

@@ -10,7 +10,6 @@ public class Admin implements Serializable{
 	private long mobile;
 	
 	public Admin() {
-		// TODO Auto-generated constructor stub
 	}
 	
 	public Admin(int id,String name,String password,String email,long mobile) {

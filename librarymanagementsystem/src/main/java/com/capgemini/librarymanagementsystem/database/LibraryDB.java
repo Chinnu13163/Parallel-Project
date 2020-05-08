@@ -15,9 +15,8 @@ public class LibraryDB {
 
 	public static void addToDB() {
 
-		ADMIN.add(new Admin(111111,"Amulya","Ammu@123","ammu@gmail.com",785963147));
+		ADMIN.add(new Admin(111111,"Chinnu","Chinnu@123","Chinnu@gmail.com",785963147));
 
-		//USER.add(new User(111111,"ramya","ramya@gmail.com","Ramya@123","cse",7788997788,07/08/2020,02/02/2020);
 		
 		BOOKS.add(new Book(101010,"java","james","gosling","coding"));
 		BOOKS.add(new Book(101011,"history","tom","henry feild","world"));
