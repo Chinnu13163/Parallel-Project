@@ -8,7 +8,7 @@ import com.capgemini.lms_collections.dto.RequestBean;
 import com.capgemini.lms_collections.dto.User;
 import com.capgemini.lms_collections.factory.LibraryFactory;
 
-public class UserServiceImplement implements UserService{
+public class UserServiceImplementation implements UserService{
 	private UserDAO dao = LibraryFactory.getUserDao();
 
 	@Override

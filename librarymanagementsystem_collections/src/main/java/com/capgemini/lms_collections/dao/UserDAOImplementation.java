@@ -9,7 +9,7 @@ import com.capgemini.lms_collections.dto.RequestBean;
 import com.capgemini.lms_collections.dto.User;
 import com.capgemini.lms_collections.exception.LMSException;
 
-public class UserDAOImplement implements UserDAO{
+public class UserDAOImplementation implements UserDAO{
 
 	@Override
 	public boolean registerUser(User user) {

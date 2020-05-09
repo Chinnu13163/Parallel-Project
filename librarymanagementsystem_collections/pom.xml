@@ -3,10 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.capgemini</groupId>
-  <artifactId>librarymanagementsystem</artifactId>
+  <artifactId>librarymanagementsystem_collections</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>librarymanagementsystem</name>
+
+  <name>librarymanagementsystem_collections</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -16,8 +17,7 @@
   </properties>
 
   <dependencies>
-  
-  <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+   <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
@@ -25,7 +25,7 @@
     <scope>provided</scope>
 </dependency>
 
- <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-api</artifactId>
@@ -40,7 +40,7 @@
     <version>5.5.2</version>
     <scope>test</scope>
 </dependency>
-  
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

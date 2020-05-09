@@ -1,13 +1,12 @@
 package com.capgemini.lms_collections.dao;
 
 import java.util.List;
+import java.util.List;
 
 import com.capgemini.lms_collections.dto.Admin;
 import com.capgemini.lms_collections.dto.Book;
 import com.capgemini.lms_collections.dto.RequestBean;
 import com.capgemini.lms_collections.dto.User;
-
-import java.util.List;
 
 public interface AdminDAO {
 	boolean registerAdmin(Admin admin);

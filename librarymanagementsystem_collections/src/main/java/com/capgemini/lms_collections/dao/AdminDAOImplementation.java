@@ -10,7 +10,7 @@ import com.capgemini.lms_collections.dto.RequestBean;
 import com.capgemini.lms_collections.dto.User;
 import com.capgemini.lms_collections.exception.LMSException;
 
-public class AdminDAOImplement implements AdminDAO{
+public class AdminDAOImplementation implements AdminDAO{
 
 	@Override
 	public boolean registerAdmin(Admin admin) {

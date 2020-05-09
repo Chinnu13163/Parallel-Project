@@ -9,7 +9,7 @@ import com.capgemini.lms_collections.dto.RequestBean;
 import com.capgemini.lms_collections.dto.User;
 import com.capgemini.lms_collections.factory.LibraryFactory;
 
-public class AdminServiceImplement implements AdminService{
+public class AdminServiceImplementation implements AdminService{
 	private AdminDAO dao = LibraryFactory.getAdminDao();
 
 	@Override

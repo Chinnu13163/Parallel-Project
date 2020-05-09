@@ -1,25 +1,25 @@
 package com.capgemini.lms_collections.factory;
 
 import com.capgemini.lms_collections.dao.AdminDAO;
-import com.capgemini.lms_collections.dao.AdminDAOImplement;
+import com.capgemini.lms_collections.dao.AdminDAOImplementation;
 import com.capgemini.lms_collections.dao.UserDAO;
-import com.capgemini.lms_collections.dao.UserDAOImplement;
+import com.capgemini.lms_collections.dao.UserDAOImplementation;
 import com.capgemini.lms_collections.service.AdminService;
-import com.capgemini.lms_collections.service.AdminServiceImplement;
+import com.capgemini.lms_collections.service.AdminServiceImplementation;
 import com.capgemini.lms_collections.service.UserService;
-import com.capgemini.lms_collections.service.UserServiceImplement;
+import com.capgemini.lms_collections.service.UserServiceImplementation;
 
 public class LibraryFactory {
 	public static AdminDAO getAdminDao() {
-		return new AdminDAOImplement();
+		return new AdminDAOImplementation();
 	}
 	public static AdminService getAdminService() {
-		return new AdminServiceImplement();
+		return new AdminServiceImplementation();
 	}
 	public static UserDAO getUserDao() {
-		return new UserDAOImplement();
+		return new UserDAOImplementation();
 	}
 	public static UserService getUserService() {
-		return new UserServiceImplement();
+		return new UserServiceImplementation();
 	}
 }
